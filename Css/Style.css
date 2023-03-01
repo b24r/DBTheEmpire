@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#272727, #0e0e0e);
+    height: 100vh;
+    font-family: 'Almarai', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    size: 20px;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-image: url(../Assets/Header-Background.png);
+    background-size: cover;
+    background-position: -120px;
+    width: 100%;
+
+}
+
+header .header-logo {
+    width: 300px;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+    order: 3;
+    cursor: pointer;
+}
+
+header .main-nav {
+    order: 1;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li {
+    margin-right: 30px;
+    margin-top: 0px;
+    
+}
+header ul li a {
+    padding: 10px 18px;
+    border-radius: 18px;
+    position: relative;
+    
+}
+header ul li a:hover, .active{
+    background: rgba(255, 255, 255, 0.800);
+    color: #272727;
+    transition: all 0.5s ease 0s;
+
+}
+
+
+
+nav .li a:hover {
+    color: red;
+}
+
+nav .li a {
+    transition: all 0.3s ease 0s;
+}
+
+.active {
+    padding: 9px 25px;
+    background-color: rgba(255, 0, 0, 0.699);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.active:hover {
+    background-color: rgba(211, 0, 0, 0.698);
+}
+
+/* section .icon {
+    width: 60px;
+    height: 60px;
+    background: #DA0037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+section .card:hover .icon {
+    box-shadow: 0 0 10px red;
+}
+
+
+
+section .icon i {
+    font-size: 1.5em;
+}
+
+section .card p {
+    margin: 0.5em 0;
+    font-size: 0.8em;
+    display: none;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+section .card:hover p {
+    display: block;
+    opacity: 1;
+}
+
+section .card h4 {
+    margin-top: 0.5em;
+}
+
+section .card::before, .card::after {
+    content: "";
+    position: absolute;
+    background: #171717;
+    width: 100%;
+    height: 40%;
+    z-index: 10;
+    border-radius: 15px 15px 0 0;
+    transition: all 0.4s;
+}
+
+section .card::before {
+    top: 0;
+}
+
+section .card:hover::before {
+    transform: translateY(-20px);
+}
+
+section .card::after {
+    bottom: 10px;
+    height: 60%;
+    border-radius: 0 0 15px 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+}
+
+section body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section .card {
+    width: 250px;
+    height: 200px;
+    color: #fff;
+    margin: 1em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1.5em;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+} */
